@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-edgepainter"
+description = "Edge Painter: a Load Image you can draw guide strokes on with the built-in MaskEditor (white-on-black strokes, zone mask, guide fusion). Edge Pencil: retouch a Canny/Lineart guide at the original size with a white/black pencil (X toggles). The regular MaskEditor stays untouched."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/JacPointLab/ComfyUI-EdgePainter"
+
+[tool.comfy]
+PublisherId = "jacpointlab"
+DisplayName = "Edge Painter"
